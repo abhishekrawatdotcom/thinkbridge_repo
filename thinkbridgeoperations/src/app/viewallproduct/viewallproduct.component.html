@@ -1,0 +1,32 @@
+
+
+                          <section class="pricing" id="pricingdiv">
+                            <div class="container headings text-center">
+                              <h1 class="text-center font-weight-bold">List of Products</h1>
+
+                            </div>
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-4 col-12 card-second" *ngFor="let item of list">
+                                  <div class="card text-center">
+                                    <h3 class="card-title"  ><b>{{item.name}}</b></h3>
+                                    <p class="card-desc"><b>{{title.description}}</b></p>
+                                    <h6 class="card-title" style="color: black;" >{{title.price}}<span ><b></b></span></h6>
+                                    <p class="card-price"><b>{{title.discountprice}}</b></p>
+                                    <a href="#upadte/{{productdetails.id}}">Update product</a>
+                                    <a href="#delete/{{productdetails.id}}">Update product</a>
+      
+        
+
+                                  </div>
+
+                                </div>
+                               
+
+                              </div>
+
+                            </div>
+
+
+                          </section>
+
